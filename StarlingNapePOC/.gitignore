@@ -1,0 +1,6 @@
+/html-template/
+/bin-release/
+/bin-debug/
+/.settings/
+/.actionScriptProperties
+/.project
