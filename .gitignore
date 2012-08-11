@@ -2,6 +2,8 @@
 ## Eclipse
 #################
 .actionScriptProperties
+bin-debug/
+html-template/
 
 *.pydevproject
 .project
