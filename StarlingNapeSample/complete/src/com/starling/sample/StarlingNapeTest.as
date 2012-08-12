@@ -81,8 +81,8 @@ package com.starling.sample
 			var position:Vec2 = new Vec2( x, y );
 			var cellBody:CellBody = new CellBody(position);
 			cellBody.graphicUpdate = _updateGraphics;
-			cellBody.space = space;
 			
+			cellBody.space = space;
 			addChild( cellBody.graphic );
 		}
 
