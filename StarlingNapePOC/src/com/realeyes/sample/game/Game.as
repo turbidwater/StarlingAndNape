@@ -53,9 +53,7 @@ package com.realeyes.sample.game
 		{
 			_renderSurface = new BitmapDebug( stage.stageWidth, stage.stageHeight, 0x000000, true );
 			
-			space = new Space( new Vec2( 0, 0 ) );
-			space.worldLinearDrag = 1;
-			space.worldAngularDrag = 5;
+			space = new Space( new Vec2( 15, 0 ) );
 			
 			stage.addEventListener( KeyboardEvent.KEY_DOWN, _onKeyDown );
 			
