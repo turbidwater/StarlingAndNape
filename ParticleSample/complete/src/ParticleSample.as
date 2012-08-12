@@ -1,6 +1,6 @@
 package
 {
-	import com.starling.sample.JugglerTest;
+	import com.starling.sample.ParticleTest;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
@@ -8,18 +8,16 @@ package
 	
 	import starling.core.Starling;
 	
-	public class JugglerSample extends Sprite
+	public class ParticleSample extends Sprite
 	{
 		public var star:Starling;
 		
-		public function JugglerSample()
+		public function ParticleSample()
 		{
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			stage.align = StageAlign.TOP_LEFT;
 			
-			star = new Starling( JugglerTest, stage );
-			
-			star.start();
+			star = new Starling( ParticleTest, stage );
 		}
 	}
 }
