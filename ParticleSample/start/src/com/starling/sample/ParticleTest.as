@@ -26,6 +26,8 @@ package com.starling.sample
 		private function _onAddedToStage( event:Event ):void
 		{
 			_initBackground();
+			
+			//165, 125
 		}
 	}
 }
